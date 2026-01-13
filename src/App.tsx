@@ -40,6 +40,11 @@ function App() {
     setCountdown(3)
   }
 
+  const handleCloseWinners = () => {
+    setShowWinners(false)
+    setWinners([])
+  }
+
   useEffect(() => {
     if (countdown === null || countdown < 0) return
 
@@ -107,6 +112,7 @@ function App() {
           showWinners={showWinners}
           winnerText={t.winner}
           winnersText={t.winners}
+          onClose={handleCloseWinners}
         />
       </motion.div>
     </div>
