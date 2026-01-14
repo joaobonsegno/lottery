@@ -46,7 +46,6 @@ export const LotteryForm = ({
         value={numberOfWinners}
         onChange={onNumberOfWinnersChange}
         label={t.numberOfWinners}
-        max={totalNames || 1}
         disabled={isDrawing}
       />
 
