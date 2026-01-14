@@ -1,4 +1,4 @@
-export type Language = 'en-US' | 'pt-BR'
+export type Language = 'en-US' | 'pt-BR' | 'cucos'
 
 export interface Translations {
   title: string

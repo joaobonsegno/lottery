@@ -31,5 +31,20 @@ export const translations: Record<Language, Translations> = {
     alertTooManyWinners: (requested: number, available: number) => 
       `Você não pode selecionar mais vencedores (${requested}) do que nomes disponíveis (${available})!`,
   },
+  'cucos': {
+    title: 'Sorteio dos Cucos 👅',
+    subtitle: 'Coloca o nome de todos os cotocos aqui!',
+    enterNames: 'Digite os cuquinhos',
+    namesCount: (count: number) => `${count} cuco${count !== 1 ? 's' : ''}`,
+    placeholder: 'Digite cuco names separados por vírgulas ou quebras de linha\nex: Boi Negro, Fofinho, Midos O BIZARRO\nou um nome por linha',
+    numberOfWinners: 'Número de Vencedores',
+    drawButton: '🎯 SORTEAR CUCÕES',
+    drawing: 'Cucos aparecendo...',
+    winner: 'CUCO ESCOLHIDO',
+    winners: 'CUCOS ESCOLHIDOS',
+    alertNoNames: 'Por favor, adicione alguns nomes primeiro!',
+    alertTooManyWinners: (requested: number, available: number) => 
+      `Você não pode selecionar mais vencedores (${requested}) do que nomes disponíveis (${available})!`,
+  }
 }
 

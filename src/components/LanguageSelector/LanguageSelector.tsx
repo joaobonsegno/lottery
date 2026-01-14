@@ -17,6 +17,7 @@ interface LanguageOption {
 const languages: LanguageOption[] = [
   { code: 'en-US', flag: '🇺🇸', name: 'English', region: 'United States' },
   { code: 'pt-BR', flag: '🇧🇷', name: 'Português', region: 'Brasil' },
+  { code: 'cucos', flag: '👅', name: 'Cucos', region: 'Cucolância' },
 ]
 
 export const LanguageSelector = ({ language, onLanguageChange }: LanguageSelectorProps) => {
